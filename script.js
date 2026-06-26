@@ -98,7 +98,7 @@ div.className="option";
 
 div.innerHTML=option;
 
-div.onclick=()>{
+div.onclick=()=>{
 
 document.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));
 
